@@ -28,10 +28,10 @@ if choice == "Texto_Colunas":
     st.subheader("Texto formatado em colunas")
     st.write("Veja a seguir uma opção de formatação em colunas")    
     cols01 = st.columns(2)    
-    cols01[0].write('Texto da Coluna 01')
-    cols01[1].write('Texto da Coluna 02')
-elif choice == "Texto_Markdown":
-    st.subheader("Texto Markdown")
+    cols01[0].write('salmos 1')
+    cols01[1].write('salmos 2')
+elif choice == "salmos 3":
+    st.subheader("salmos 4")
     st.write("Veja a seguir opção de formatação de texto Markdown")
     st.markdown(
     """
